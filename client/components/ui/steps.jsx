@@ -2,7 +2,7 @@ import React from "react";
 
 const Steps = () => {
   return (
-    <div className="container bg-black mx-auto w-full">
+    <div id="steps" className="container bg-black mx-auto w-full">
       <div className="flex justify-center items-center">
         <h2 className="mb-8 text-4xl font-bold tracking-tighter text-blue-600 lg:text-6xl md:text-5xl animate-jump-in animate-once animate-delay-800 animate-ease-linear animate-fill-both text-center">
           <span>How to use?</span>

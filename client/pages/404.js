@@ -17,7 +17,7 @@ export default function Contact() {
         }}
       />
       <Head>
-        <title>Create Next App</title>
+        <title>AlignShare</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />

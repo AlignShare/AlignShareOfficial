@@ -26,6 +26,9 @@ export default function Main() {
                 transition: "background-color 0.3s ease",
                 cursor: "pointer",
               }}
+              onClick={() => {
+                window.location.href = "#steps";
+              }}
               onMouseEnter={(e) => {
                 e.target.style.backgroundColor = "grey";
                 e.target.style.color = "white";
