@@ -33,7 +33,7 @@ def read_root() -> str:
     random_company = random.choice(companies)
     print(random_company)
     selected_company = random_company
-    news_url=f"https://newsapi.org/v2/everything?q={selected_company}&from=2024-05-23&language=en&sortBy=publishedAt&apiKey={NEWS_API_KEY}"
+    news_url=f"https://newsapi.org/v2/everything?q={selected_company}&from=2024-06-23&language=en&sortBy=publishedAt&apiKey={NEWS_API_KEY}"
     response = requests.get(news_url)
     new_response=response.json()
     size=len(new_response['articles'])
